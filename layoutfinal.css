@@ -1,0 +1,334 @@
+
+/*corpo da página*/
+body {
+/*cor de fundo da página*/
+background-color: #FFFFFF;}
+
+/*títulos*/ 
+/*título h1*/ 
+h1 {
+font: oblique 600 16pt arial; color: #006600; text-align: center; font-weight:bold;}
+
+/*título h2*/  
+h2 {
+font: bold 20pt verdana; color: #ffffff; text-align: center;}
+/*título h3*/  
+h3 {
+font: normal 12pt "times new roman"; color: 006c00; text-align: center;}
+/*título h4*/  
+h4 {
+font: oblique 700 10pt arial; color: #ff0000; text-align: center;}
+/*título h5*/  
+h5 {
+font: bold 20pt arial; color: #00ffff; text-align: center;}
+
+/*Divisória relativa ao banner do layout da página*/ 
+ 
+#main-banner {
+/*altura*/ 
+height: 20%;
+/*largura*/ 
+width:98%;
+/*borda*/ 
+border: 4px groove #00ff00;
+/*cor de fundo*/ 
+background: #FFFFFF;
+/*margem superior*/ 
+margin-top:0px;
+/*margem direita*/ 
+margin-right: 0px;
+/*margem inferior*/ 
+margin-bottom: 0px;
+/*margem esquerda*/ 
+margin-left: 0px;
+/*cor da divisória*/ 
+color: #006c00;
+}
+/*Divisória relativa à primeira imagem do banner*/ 
+#divimagem1banner{
+/*Posição absoluta*/ 
+position:absolute;
+/*altura*/ 
+height:19%;
+/*largura*/ 
+width:30%;
+/*fluturação para colocar a div ao lado de outra div*/ 
+float: left;
+/*margem superior*/ 
+margin-top:0px;
+/*margem direita*/
+margin-right: 0px;
+/*margem inferior*/
+margin-bottom: 0px;
+/*margem esquerda*/
+margin-left: 8%;
+/*cor de fundo da divisória*/
+background: #FFFFFF;
+/*camada da div*/
+z-index:0;
+}
+/*Divisória relativa à primeira imagem do banner*/ 
+#divimagem2banner{
+/*altura*/ 
+height:98%;
+/*largura*/ 
+width:60%;
+/*fluturação para colocar a div ao lado de outra div*/ 
+float: left;
+/*margem superior*/ 
+margin-top:0px;
+/*margem direita*/ 
+margin-right: 0px;
+/*margem inferior*/ 
+margin-bottom: 0px;
+/*margem esquerda*/ 
+margin-left: 39%;
+/*cor de fundo da divisória*/ 
+background: #FFFFFF;
+/*camada da div*/
+z-index:0;
+}
+
+
+/*Estilos para a primeira imagem do banner*/
+#imagem1banner{
+/*altura da imagem relativa a div*/
+height:100%;
+/*largura da imagem relativa a div*/
+width:100%;
+/*camada da imagem */
+z-index:1;
+}
+
+/*Estilos para a segunda imagem do banner*/
+#imagem2banner{
+/*altura da imagem relativa a div*/
+height:100%;
+/*largura da imagem relativa a div*/
+width:100%;
+/*camada da imagem */
+z-index:2;
+}
+
+/*Divisória relativa ao menu esquerdo do layout da página*/ 
+#left-menu {
+/*flutuação para colocar a div ao lado de outra div*/ 
+float:left;
+/*altura da divisória*/ 
+height:75%;
+/*largura da divisória*/ 
+width: 15%;
+/*borda da divisória*/ 
+border: 4px groove #00ff00;
+/*cor de fundo da divisória*/ 
+background: #fFFFFF;
+/*enchimento*/ 
+padding: 0px;
+/*margem superior da divisória*/ 
+margin-top:1px;
+/*margem direita da divisória*/ 
+margin-right: 1px;
+/*margem inferior da divisória*/ 
+margin-bottom: 1px;
+/*margem esquerda da divisória*/ 
+margin-left: 1px;
+/*cor da fonte da divisória*/ 
+color: #00ff00;
+/*tamanho da fonte da divisória*/ 
+font-size: 12pt;
+/*fonte da divisória*/ 
+font-family: arial;
+/*alinhamneto do texto da divisória*/ 
+text-align: left;}
+ 
+ /*Divisória relativa à área principal do layout da página*/ 
+ #main-area {
+/*flutuação para colocar a div ao lado de outra div*/ 
+float: none;
+/*altura da divisória*/ 
+height: 75%;
+/*largura da divisória*/ 
+width: 79%;
+/*borda da divisória*/ 
+border: 4px groove #00ff00;
+/*cor de fundo da divisória*/ 
+background: #AFFFAF;
+/*Estilo para os textos da divisória*/ 
+font: normal 9pt arial; text-align: justify; color: #000000;
+font-weight: bold;
+/*Enchimento da divisória*/ 
+padding: 2px;
+/*margem superior da divisória*/ 
+margin-top:1px;
+/*margem direita da divisória*/ 
+margin-right: 1px;
+/*margem inferior da divisória*/ 
+margin-bottom: 1px;
+/*margem esquerda da divisória*/ 
+margin-left: 1px;}
+ 
+/*Divisória relativa à área direita do layout da página*/ 
+ #right-area {
+/*Posição absoluta da divisória */ 
+position: absolute;
+/*Alinhamento superior da divisória */ 
+top: 19%;
+/*Alinhamento esquerdo da divisória */ 
+left: 79%;
+/*Altura da divisória */ 
+height: 73%;
+/*Largura da divisória */ 
+width: 18%;
+/*Borda da divisória */ 
+border: 4px groove #00ff00;
+/*Cor de fundo da divisória */ 
+background: #ffffff;
+/*Estilos da fonte da divisória */ 
+font: normal 10pt arial; text-align: justify; color: #ffffff;
+/*Enchimento da divisória */ 
+padding: 2px;
+/*Margem superior da divisória */ 
+margin-top:20px;
+/*Margem direita da divisória */ 
+margin-right: 1px;
+/*Margem inferior da divisória */ 
+margin-bottom: 1px;
+/*Margem esquerda da divisória */ 
+margin-left: 1px;
+/*Camada da divisória */ 
+z-index:0;
+}
+
+/*Divisória relativa ao cabeçalho do layout da página*/  
+#footer {
+/*Altura da divisória*/  
+height: 10%;
+/*Largura da divisória*/  
+width: 98%;
+/*borda da divisória*/  
+border: 4px groove #00ff00;
+/*Cor de fundo da divisória*/  
+background: #FFFFFF;
+/*Margem superior da divisória*/  
+margin-top:2px;
+/*Margem direita da divisória*/  
+margin-right: 0px;
+/*Margem inferior da divisória*/  
+margin-bottom: 2px;
+/*Margem esquerda da divisória*/  
+margin-left: 0px;
+/*Estilos relativos ao texto da divisória*/  
+color:#006600;
+font-weight:bold;
+font-size: 15pt;
+font-family: arial;
+text-align: center;}
+ 
+
+#col1 {
+float:left;
+width:35%;
+color: #006600;
+font-weight:bold;
+font-size:10pt;
+font-family:arial;
+text-align:justify;
+margin-top:1%;
+margin-right:1%;
+margin-bottom:1%;
+margin-left:1%;
+}
+ 
+#col2 {
+float:right;
+width:35%;
+color:#006600;
+font-size:10pt;
+font-weight:bold;
+font-family:arial;
+text-align:justify;
+margin-top:1%;
+margin-right:1%;
+margin-bottom:1%;
+margin-left:1%;}
+ 
+
+#imagempantanal {
+float:left;
+position: absolute;
+top: 70%;
+left: 16%;
+height: 26%;
+width: 63%;
+background: #AFFFAF;
+}
+
+#imgpantanal{
+height: 100%;
+width: 100%;
+}
+
+#imgpantanal2{
+position:absolute;
+height: 18%;
+width: 20%;
+z-index:1;
+top:82%;
+left:40%;
+}
+ 
+
+ 
+ 
+ ul.elemento-ul {
+/*largura do box*/
+widht: 30%;
+list-style-type: none;
+ 
+/*enchimento*/
+padding: 0px;
+ 
+/*margens*/
+margin: 0px;}
+ 
+li.elemento-li  {
+/*largura do box*/
+width: 95%;
+
+/*altura do box*/  
+height:8%; 
+ /*enchimento*/
+padding: 2px;
+ 
+/*bordas*/
+border: 1px groove #afffaf;
+ 
+/*margens*/
+margin: 2px;
+ 
+/*cor de fundo*/
+background: #FFFFFF;
+
+color:#00ff00;
+
+font-weight:bold;
+
+
+}
+
+
+.elemento-li:hover{
+border-style: solid;
+border-width: 3px;
+border-color:#ff0000;
+color: #ffff00;
+background-image: url("folha1.png");
+}
+
+
+ 
+a:hover {
+color: #ffff00;
+font-weight:bold;
+
+}
